@@ -64,7 +64,7 @@ function check_lastname(){
      }
 }
 
-function check_mail(){
+function check_mail_reg(){
     if($("#email").val().trim() == ''){
         $(this).removeClass('is-valid');
         $(this).addClass('is-invalid');
@@ -106,7 +106,7 @@ $(document).ready(function(){
     $('#firstname').on('blur', check_firstname);
     $('#lastname').on('blur', check_lastname);
     $('#phone').on('blur', check_phone);
-    $('#email').on('blur', check_mail);
+    $('#email').on('blur', check_mail_reg);
 
     $('#create_user').on('click', create_user);
 })
