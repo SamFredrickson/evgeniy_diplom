@@ -372,7 +372,6 @@
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript"></script>
   <script src="js/redirection.js"></script>
-
   <script src="js/login.js"></script>
   <script src="js/registration.js"></script>
   <script src="js/cart_item.js"></script>

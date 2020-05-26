@@ -42,7 +42,7 @@ function check_content(){
      }
 }
 
-function send(){
+function send_mail(){
     if($('#msg_name').hasClass('is-valid') && $('#msg_email').hasClass('is-valid') &&
     $('#msg_topic').hasClass('is-valid') && $('#msg_content').hasClass('is-valid') && $('#msg_topic').hasClass('is-valid')){
 
@@ -102,7 +102,7 @@ $(document).ready(function(){
     $('#msg_email').on('blur', check_mail);
     $('#msg_topic').on('blur', check_topic);
     $('#msg_content').on('blur', check_content);
-    $('#msg_send').on('click', send);
+    $('#msg_send').on('click', send_mail);
     $('#confirm_order').on('click', send_order);
 
 });
